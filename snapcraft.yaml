@@ -25,4 +25,7 @@ parts:
       - grub-common
     plugin: make
     after: [grub-prepare]
+  cloud-init:
+    plugin: dump
+    source: cloud-init
 
